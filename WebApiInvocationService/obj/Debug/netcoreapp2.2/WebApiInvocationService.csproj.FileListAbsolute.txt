@@ -1,0 +1,14 @@
+C:\Users\239914\Source\Repos\WebApiInvocationService\WebApiInvocationService\bin\Debug\netcoreapp2.2\WebApiInvocationService.deps.json
+C:\Users\239914\Source\Repos\WebApiInvocationService\WebApiInvocationService\bin\Debug\netcoreapp2.2\WebApiInvocationService.runtimeconfig.json
+C:\Users\239914\Source\Repos\WebApiInvocationService\WebApiInvocationService\bin\Debug\netcoreapp2.2\WebApiInvocationService.runtimeconfig.dev.json
+C:\Users\239914\Source\Repos\WebApiInvocationService\WebApiInvocationService\bin\Debug\netcoreapp2.2\WebApiInvocationService.dll
+C:\Users\239914\Source\Repos\WebApiInvocationService\WebApiInvocationService\bin\Debug\netcoreapp2.2\WebApiInvocationService.pdb
+C:\Users\239914\Source\Repos\WebApiInvocationService\WebApiInvocationService\obj\Debug\netcoreapp2.2\WebApiInvocationService.csproj.CoreCompileInputs.cache
+C:\Users\239914\Source\Repos\WebApiInvocationService\WebApiInvocationService\obj\Debug\netcoreapp2.2\WebApiInvocationService.RazorAssemblyInfo.cache
+C:\Users\239914\Source\Repos\WebApiInvocationService\WebApiInvocationService\obj\Debug\netcoreapp2.2\WebApiInvocationService.RazorAssemblyInfo.cs
+C:\Users\239914\Source\Repos\WebApiInvocationService\WebApiInvocationService\obj\Debug\netcoreapp2.2\WebApiInvocationService.AssemblyInfoInputs.cache
+C:\Users\239914\Source\Repos\WebApiInvocationService\WebApiInvocationService\obj\Debug\netcoreapp2.2\WebApiInvocationService.AssemblyInfo.cs
+C:\Users\239914\Source\Repos\WebApiInvocationService\WebApiInvocationService\obj\Debug\netcoreapp2.2\WebApiInvocationService.RazorTargetAssemblyInfo.cache
+C:\Users\239914\Source\Repos\WebApiInvocationService\WebApiInvocationService\obj\Debug\netcoreapp2.2\WebApiInvocationService.dll
+C:\Users\239914\Source\Repos\WebApiInvocationService\WebApiInvocationService\obj\Debug\netcoreapp2.2\WebApiInvocationService.pdb
+C:\Users\239914\Source\Repos\WebApiInvocationService\WebApiInvocationService\obj\Debug\netcoreapp2.2\WebApiInvocationService.csprojAssemblyReference.cache
