@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webapiinvocationservice-deployment
+  labels:
+    app: WebApiInvocationService
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: WebApiInvocationService	  
+  template:
+    metadata:
+      labels:
+        app: WebApiInvocationService
+    spec:
+      containers:
+      - name: webapiinvocationservice
+        image: myfirstazurecr.azurecr.io/webapiinvocationserviceimage:latest
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: webapivaluessvcsecret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: webapiinvocationservicesvc
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: WebApiInvocationService
