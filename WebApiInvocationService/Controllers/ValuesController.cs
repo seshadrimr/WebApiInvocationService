@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,6 +15,24 @@ namespace WebApiInvocationService.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("http://webapivaluesservicesvc/api/");
+                //HTTP GET
+                var responseTask = client.GetAsync("Values");
+                responseTask.Wait();
+
+                var result = responseTask.Result;
+                if (result.IsSuccessStatusCode)
+                {
+                    var readTask = result.Content.ReadAsAsync<string[]>();
+                    readTask.Wait();
+
+                    return readTask.Result;
+
+                }
+            }
+            
             return new string[] { "value a", "value b" };
         }
 
